@@ -17,7 +17,7 @@ class TestFirstPuzzle(unittest.TestCase):
 
         for dataset, solution in datasets_with_solutions:
             with self.subTest("Solution correctness for given dataset", dataset=dataset, solution=solution):
-                self.assertEqual(Puzzle_1.count_fuel_required(dataset), solution)
+                self.assertEqual(Puzzle_1.calculate_fuel_required(dataset), solution)
 
 
 if __name__ == '__main__':

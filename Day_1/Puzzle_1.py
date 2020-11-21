@@ -8,4 +8,9 @@ def calculate_fuel_required(modules_masses: list) -> int:
 
 
 if __name__ == '__main__':
-    calculate_fuel_required([10])
+    dataset = []
+    with open("puzzle_input.txt") as puzzle_input:
+        for number in puzzle_input.readlines():
+            dataset.append(int(number))
+
+    print("Solution for dataset included in './puzzle_input.txt' is equal to ", calculate_fuel_required(dataset))

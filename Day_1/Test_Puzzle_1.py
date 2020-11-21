@@ -3,16 +3,17 @@ from Day_1 import Puzzle_1
 
 
 class TestFirstPuzzle(unittest.TestCase):
-    def test_count_fuel_required(self):
+    def test_calculate_fuel_required(self):
 
         datasets_with_solutions = (
             # A tuple of (dataset, solution)
-            (12, 2),
-            (14, 2),
-            (1969, 654),
-            (100756, 33583),
-            ({12, 14}, 4),
-            ({12, 14, 1969}, 658)
+            ([12], 2),
+            ([14], 2),
+            ([1969], 654),
+            ([100756], 33583),
+            ([12, 14], 4),
+            ([12, 14, 12], 6),
+            ([12, 14, 1969], 658)
         )
 
         for dataset, solution in datasets_with_solutions:

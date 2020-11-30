@@ -13,7 +13,9 @@ class TestFirstPuzzle(unittest.TestCase):
             ([100756], 33583),
             ([12, 14], 4),
             ([12, 14, 12], 6),
-            ([12, 14, 1969], 658)
+            ([12, 14, 1969], 658),
+            ([1], 0),
+            ([12, 1, 2], 2)
         )
 
         for dataset, solution in datasets_with_solutions:

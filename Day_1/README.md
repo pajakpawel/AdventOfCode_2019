@@ -30,6 +30,8 @@ then add together all the fuel values.
 
 What is the sum of the fuel requirements for all of the modules on your spacecraft?
 
+**Answer for my puzzle input is `3297866`**
+
 ## Puzzle 2
 During the second Go / No Go poll, the Elf in charge of the Rocket Equation Double-Checker stops the launch sequence. 
 Apparently, you forgot to include additional fuel for the fuel you just added.
@@ -51,4 +53,7 @@ continuing until a fuel requirement is zero or negative. For example:
 So, the total fuel required for a module of mass 1969 is 654 + 216 + 70 + 21 + 5 = 966.
 - The fuel required by a module of mass 100756 and its fuel is: 33583 + 11192 + 3728 + 1240 + 411 + 135 + 43 + 12 + 2 = 50346.
 
-What is the sum of the fuel requirements for all of the modules on your spacecraft when also taking into account the mass of the added fuel? (Calculate the fuel requirements for each module separately, then add them all up at the end.)
+What is the sum of the fuel requirements for all of the modules on your spacecraft when also taking into account the mass of the added fuel?
+(Calculate the fuel requirements for each module separately, then add them all up at the end.)
+
+**Answer for my puzzle input is `4943923`**
